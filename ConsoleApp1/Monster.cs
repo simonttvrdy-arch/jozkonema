@@ -11,6 +11,6 @@
 
     internal void Attack(Player player)
     {
-        
+        player.Hp -= Damage;
     }
 }
